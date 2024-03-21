@@ -4,180 +4,80 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clone Disney+</title>
+    <title>Interstellar Page</title>
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
     <header class="header">
         <div class="header__container">
             <h1>
-                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img class="header__logo" src="./dist/images/interstellar_nav.svg" alt="Interstellar">
             </h1>
-            <ul class="header__links">
-                <li class="header__links__item">
-                    <a href="#" class="button button--secondary">Assine agora</a>
-                </li>
-                <li class="header__links__item">
-                    <a href="#" class="button button--dark">Entrar</a>
-                </li>
-            </ul>
         </div>
     </header>
     <section class="hero">
         <div class="hero__content">
             <div class="hero__content__branding">
-                <img src="./dist/images/disneyplus.svg" alt="Disney+">
+                <img src="./dist/images/interstellar_nav.svg" alt="Interstellar" style="max-width: 100%;">
             </div>
             <h3 class="title--small">
-                As melhores histórias em um só lugar.
+                O Melhor filme já feito.
             </h3>
             <p>
-                <a href="#" class="link-text">Assinar o Disney+</a>
-                <br>
-                <span class="text">
-                    R$ 27,90/mês o R$ 279,90/ano à vista*
-                </span>
+                <a href="https://www.google.com/search?q=intersterllar&oq=intersterllar&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIGCAEQRRhAMgwIAhAuGAoYsQMYgAQyDAgDEC4YChixAxiABDIJCAQQLhgKGIAEMgkIBRAAGAoYgAQyCQgGEAAYChiABDIJCAcQABgKGIAE0gEINjM1NGowajmoAgCwAgA&sourceid=chrome&ie=UTF-8" class="link-text">Onde Assistir</a>
             </p>
-            <ul class="hero__content__combos">
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine Agora</button>
-                    <span class="text">R$ 45,90/mês*</span>
-                </li>
-                <li class="hero__content__combos__combo">
-                    <img src="./dist/images/logos/disney_star_plus.png" alt="Disney+ - Star+ - Combo+">
-                    <button class="button">Assine Agora</button>
-                    <span class="text">R$ 45,90/mês*</span>
-                </li>
-            </ul>
-            <p class="text--small">
-                *O preço pode variar caso a assinatura seja feita através de outras plataformas.
+            <p class="text--small" style="color: #fff;">
+                *O preço pode variar de acordo com a plataforma escolhida.
             </p>
         </div>
     </section>
     <section class="shows">
         <nav class="shows__tabs">
-            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
-                Em breve
+            <button data-tab-button="elenco" class="shows__tabs__button shows__tabs__button--is-active">
+                Elenco
             </button>
-            <button data-tab-button="populares" class="shows__tabs__button">
-                Mais populares
-            </button>
-            <button data-tab-button="star_plus" class="shows__tabs__button">
-                Mais no Star+
+            <button data-tab-button="onde_assistir" class="shows__tabs__button">
+                Onde Assistir
             </button>
         </nav>
-        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+        <ul data-tab-id="elenco" class="shows__list shows__list--is-active">
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+                <img src="./dist/images/elenco/Anne-Hathaway.jpg" alt="Anne Hathaway">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/desencantada.jpg" alt="Desencantada">
+                <img src="./dist/images/elenco/jessica-chastain.jpg" alt="Jessica Chastain">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/lobisomem.jpg" alt="Lobisomem">
+                <img src="./dist/images/elenco/mackenzie-foy.jpg" alt="Mackenzie Foy">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/sem_limites.jpg" alt="Sem Limites">
+                <img src="./dist/images/elenco/Matt-Damon.jpg" alt="Matt Damon">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Santa">
+                <img src="./dist/images/elenco/matthew-mcconaughe.jpg" alt="Matthew Mcconaughe">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/willow.jpg" alt="Willow">
+                <img src="./dist/images/elenco/timothee_chalamet.jpg" alt="Timothee_Chalamet">
             </li>
         </ul>
-        <ul data-tab-id="populares" class="shows__list">
+        <ul data-tab-id="onde_assistir" class="shows__list">
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="Obi Wan">
+                <img src="./dist/images/onde_assistir/google-play.jpg" alt="google-play">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/bluey.jpg" alt="Bluey">
+                <img src="./dist/images/onde_assistir/max.avif" alt="Max">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="cavalaria da Lua">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="Dr Pol">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/red.jpg" alt="Red">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="Tudo Igual SQN">
+                <img src="./dist/images/onde_assistir/Prime Video Logo.png" alt="Prime Video">
             </li>
         </ul>
-        <ul data-tab-id="star_plus" class="shows__list">
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/libertadores.jpg" alt="Libertadores">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/belair.jpg" alt="Belair">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/nba.jpg" alt="NBA">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/os_simpson.jpg" alt="Os Simpson">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/premier_league.jpg" alt="Premier League">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/mais_no_star_plus/the_kardashians.jpg" alt="The Kardashians">
-            </li>
-        </ul>
-    </section>
-    <section class="plans">
-        <h2 class="title--big">Escolha seu plano</h2>
-        <ul class="plans__list">
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disneyplus_underline.png" alt="Disney+">
-                <strong class="title--small">R$ 27,90/mês*</strong>
-                <p class="text--big">
-                    No Disney+ você encontra as últimas estreias do cinema, originais e clássicos inesquecíveis.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_sm.png" alt="Disney+">
-                <strong class="title--small">R$ 45,90/mês*</strong>
-                <p class="text--big">
-                    Assine Disney+ e Star+ juntos. Economize e aproveite agora os dois serviços por um preço único.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-            <li class="plans__list__item">
-                <img src="./dist/images/logos/disney_star_plus_starzplay_underline.png" alt="Disney+">
-                <strong class="title--small">R$ 55,90/mês*</strong>
-                <p class="text--big">
-                    Disney+, Star+ e STARZPLAY em um plano especial. Assine agora os três serviços juntos.
-                </p>
-                <button class="button">Assine agora</button>
-            </li>
-        </ul>
-        <p class="text--small">
-            *O preço pode variar caso a assinatura seja feita através de outras plataformas.
-        </p>
     </section>
     <section class="image-text-section">
-        <img src="./dist/images/tv_pc_tablet_celular.png" alt="Imagem com TV, Computador, tablet e celular">
+        <img src="./dist/images/side_image.jpg" alt="Imagem com TV, Computador, tablet e celular">
         <div class="image-text-section__text_container">
-            <h2 class="title">Assista do seu jeito</h2>
+            <h2 class="title">Sinopse</h2>
             <p class="text--big">
-                Aproveite a tela grande da TV ou assista no tablet, laptop, celular e outros aparelhos. Nossa seleção de títulos em 4K não para de crescer. Além disso, para a felicidade de todos, é possível assistir em até 4 telas ao mesmo tempo.
-            </p>
-        </div>
-    </section>
-    <section class="image-text-section image-text-section--image-full-width">
-        <picture>
-            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" />
-            <img src="./dist/images/fundo_rei_leao.png" alt="Rei Leão">
-        </picture>
-        <div class="image-text-section__text_container image-text-section--image-full-width__text_container">
-            <h2 class="title">Baixe filmes e séries</h2>
-            <p class="text--big">
-                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.
+                As reservas naturais da Terra estão chegando ao fim e um grupo de astronautas recebe a missão de verificar possíveis planetas para receberem a população mundial, possibilitando a continuação da espécie. Cooper é chamado para liderar o grupo e aceita a missão sabendo que pode nunca mais ver os filhos. Ao lado de Brand, Jenkins e Doyle, ele seguirá em busca de um novo lar.
             </p>
         </div>
     </section>
@@ -233,26 +133,26 @@
         <ul class="faq__questions">
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    Pergunta?
+                    Qual é a duração do filme?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta
+                    Ele dura 169 minutos.
                 </div>
             </li>
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    Pergunta?
+                    Quais prêmios ele ganhou?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta
+                    Você pode verificar todos os premios <a href="https://pt.wikipedia.org/wiki/Interstellar#Pr%C3%AAmios_e_indica%C3%A7%C3%B5es">aqui</a>.
                 </div>
             </li>
             <li class="faq__questions__item">
                 <div class="faq__questions__item__question" data-faq-question>
-                    Pergunta?
+                    De quando é o filme?
                 </div>
                 <div class="faq__questions__item__answer text--big">
-                    A resposta da pergunta
+                    Ele estreou em 2014.
                 </div>
             </li>
         </ul>
@@ -260,7 +160,7 @@
 
     <footer class="footer">
         <div class="footer__container">
-            <img class="footer__logo" src="./dist/images/disneyplus.svg" alt="Disney+">
+            <img class="footer__logo" src="./dist/images/interstellar.svg" alt="Disney+">
             <ul class="footer__links">
                 <li class="footer__links__item">
                     <div class="language-selector">
@@ -292,14 +192,11 @@
                     <a href="#" class="text--small">Ajuda</a>
                 </li>
                 <li class="footer__links__item">
-                    <a href="" class="text--small">Sobre o Disney+</a>
+                    <a href="" class="text--small">Sobre o Autor da Página</a>
                 </li>
             </ul>
             <p class="text--small">
-                ® 2022 Disney, Disney+ e The Walt Disney Company. Todos os direitos reservados. Serviço de assinatura paga. Conteúdo sujeito a disponibilidade.
-            </p>
-            <p class="text--small">
-                Disney+ é um serviço pago, baseado em assinatura e sujeito a termos e condições. O serviço Disney+ é comercializado por The Walt Disney Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+                ® 2024 Rafael Sahyoun, projeto de atividade para o curso EBAC Full Stack Java.
             </p>
         </div>
     </footer>
