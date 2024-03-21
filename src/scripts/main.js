@@ -61,7 +61,6 @@ function removeBotaoAtivo(){
 
 function escondeTodasAbas(){
     const tabsContainer = document.querySelectorAll('[data-tab-id]');
-
     for (let index = 0; index < tabsContainer.length; index++) {
         tabsContainer[index].classList.remove('shows__list--is-active')
         
